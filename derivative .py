@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # CREATE FUNCTIONS
-
-# In[3]:
-
-
 def derivative_forward(X, Y):
     """
     Calculates the derivatives of a function using the forward difference method.
@@ -62,35 +54,3 @@ Raises:
         derivatives.append(derivative)
 
     return derivatives
-
-
-
-
-
-# # Calling the Functions with User Inputs
-
-# In[4]:
-
-
-# Get inputs from the user
-X_input = input("Enter X values separated by spaces: ")
-Y_input = input("Enter Y values separated by spaces: ")
-
-
-# Convert input strings to lists
-X = [float(x) for x in X_input.split()]
-Y = [float(y) for y in Y_input.split()]
-
-derivative1 = derivative_forward(X,Y)
-derivative2 = derivative_central(X,Y)
-
-# Display the result
-print("Derivative1 at X0, ..., xn-1 is: ", derivative1 )
-print("Derivative2 at X0, ..., xn-2 is: ", derivative2 )
-
-
-# In[ ]:
-
-
-
-
