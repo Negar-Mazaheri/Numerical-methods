@@ -8,5 +8,5 @@ This repository implements some numerical methods commonly used in scientific co
 **Repository Contents:**
 
 * [cholesky.py ](https://github.com/Negar-Mazaheri/Numerical-methods/blob/main/cholesky.py): Implements the Cholesky decomposition algorithm.
-* [LagrangeInterplotion.py ](https://github.com/Negar-Mazaheri/Numerical-methods/blob/main/LagrangeInterplotion.py): Implements the Lagrange interpolation method.
+* [LagrangeInterplotion.py ](https://github.com/Negar-Mazaheri/Numerical-methods/blob/main/LagrangeInterpolation.py): Implements the Lagrange interpolation method.
 * [derivative.py ](https://github.com/Negar-Mazaheri/Numerical-methods/blob/main/derivative.py): Implements central and forward differences methods for derivative estimation.
